@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Posters</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+<body>
+<header class="header">
+    <nav class="main-nav">
+        <button class="main-nav__item" data-filter="">Все</button>
+        <button class="main-nav__item" data-filter=".cat-1">Фантастика</button>
+        <button class="main-nav__item" data-filter=".cat-2">Комедия</button>
+        <button class="main-nav__item" data-filter=".cat-3">Боевик</button>
+        <button class="main-nav__item" data-filter=".cat-4">Мистика</button>
+        <button class="main-nav__item" data-filter=".cat-5">Экшен</button>
+    </nav>
+    <div class="list">
+        <div class="list__item cat-1">
+            <a href="img/posters/poster1.jpg" data-fancybox="cat-1">
+                <img src="img/posters/poster1.jpg" alt="">
+            </a>
+        </div>
+        <div class="list__item cat-3">
+            <a href="img/posters/poster2.jpg" data-fancybox="cat-3">
+                <img src="img/posters/poster2.jpg" alt="">
+            </a>
+        </div>
+        <div class="list__item cat-2">
+            <a href="img/posters/poster3.jpg" data-fancybox="cat-2">
+                <img src="img/posters/poster3.jpg" alt="">
+            </a>
+        </div>
+        <div class="list__item cat-1">
+            <a href="img/posters/poster4.jpg" data-fancybox="cat-1">
+                <img src="img/posters/poster4.jpg" alt="">
+            </a>
+        </div>
+        <div class="list__item cat-2">
+            <a href="img/posters/poster5.jpg" data-fancybox="cat-2">
+                <img src="img/posters/poster5.jpg" alt="">
+            </a>
+        </div>
+        <div class="list__item cat-4">
+            <a href="img/posters/poster5.jpg" data-fancybox="cat-4">
+                <img src="img/posters/poster5.jpg" alt="">
+            </a>
+        </div>
+        <div class="list__item cat-4">
+            <a href="img/posters/poster4.jpg" data-fancybox="cat-4">
+                <img src="img/posters/poster4.jpg" alt="">
+            </a>
+        </div>
+        <div class="list__item cat-5">
+            <a href="img/posters/poster1.jpg" data-fancybox="cat-5">
+                <img src="img/posters/poster1.jpg" alt="">
+            </a>
+        </div>
+        <a data-fancybox="cat-3" data-src="#hidden-content" href="javascript:;" style="display: none;">
+            <img src="img/posters/att.png" alt="">
+        </a>
+        <div class="list__item cat-3">
+            <a href="img/posters/poster6.jpg" data-fancybox="cat-3">
+                <img src="img/posters/poster6.jpg" alt="">
+            </a>
+        </div>
+        <div class="list__item cat-1">
+            <a href="img/posters/poster7.jpg" data-fancybox="cat-1">
+                <img src="img/posters/poster7.jpg" alt="">
+            </a>
+        </div>
+        <div class="list__item cat-2">
+            <a href="img/posters/poster8.jpg" data-fancybox="cat-2">
+                <img src="img/posters/poster8.jpg" alt="">
+            </a>
+        </div>
+        <div class="list__item cat-2">
+            <a href="img/posters/poster9.jpg" data-fancybox="cat-2">
+                <img src="img/posters/poster9.jpg" alt="">
+            </a>
+        </div>
+    </div>
+</header>
+<div style="display: none;" id="hidden-content">
+    <h2>Оплати</h2>
+    <p>Карта 03432432432432423</p>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
